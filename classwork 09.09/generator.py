@@ -3,8 +3,6 @@ import random
 glas=['a','e','y','u','i','o']
 sogl=['q','w','r','t','p','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m']
 clan=['uchiha','uzumaki','hyuuga','hatake']
-#gl = random.rendint(glas)
-#sgl = random.rengint(sogl)
 
 def generation_name(glas,sogl,num):
     i = 1
@@ -17,6 +15,5 @@ def generation_name(glas,sogl,num):
 
         yield name
         i += 1
-diop = generation_name(glas,sogl,5)
-result = [x for x in diop]
-print(result)
+for name in generation_name(glas,sogl,5):
+    print(name)
