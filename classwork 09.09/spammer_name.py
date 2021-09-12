@@ -1,7 +1,7 @@
 import random
 while True:
-    def gl(x):
-        i = random.randint(100,700)
+    def spammer(x):
+        i = random.randint(1,100)
         return x*i
     name = input('введите имя')
-    print(gl(name))
+    print(spammer(name))
