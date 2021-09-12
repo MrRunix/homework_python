@@ -60,4 +60,4 @@ def cr_list_str(width, num):
     s += 'a == A ' + str(statr/(statb+stats+statr)*100) + '%'
     return s
 
-print(cr_list_str(8, 8), sep=' ')
+print(cr_list_str(8, 8))
