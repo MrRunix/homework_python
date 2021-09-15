@@ -17,7 +17,7 @@ def f(l):
 
 def f2(l):
     i=0
-    while i<len(l):
+    while i < len(l):
         print(l[i])
         i+=1
 
