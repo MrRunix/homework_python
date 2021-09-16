@@ -60,4 +60,8 @@ def cr_list_str(width, num):
     s += 'a == A ' + str(statr/(statb+stats+statr)*100) + '%'
     return s
 
+<<<<<<< HEAD
 print(cr_list_str(8, 8),)
+=======
+print(cr_list_str(8, 8))
+>>>>>>> 601ad2964350122892679c4e292ef6f76e8907d7
